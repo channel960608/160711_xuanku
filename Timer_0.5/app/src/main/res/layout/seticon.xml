@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/top_relative"
+        android:layout_width="fill_parent"
+        android:background="#eab87d"
+        android:layout_height="50.0dip" >
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10.0dip"
+            android:singleLine="true"
+            android:text="更改头像"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:id="@+id/imageButton"-->
+            <!--android:layout_alignTop="@+id/titleText"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true" />-->
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/back"/>
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_row="12"
+            android:layout_column="12"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="95dp"
+                    android:layout_margin="40dp"
+                    android:text="New RadioButton"
+                    android:id="@+id/radioButton"
+                    android:button="@null"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="95dp"
+                    android:layout_margin="40dp"
+                    android:text="New RadioButton"
+                    android:id="@+id/radioButton2"
+                    android:button="@null"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="95dp"
+                    android:layout_margin="40dp"
+                    android:text="New RadioButton"
+                    android:id="@+id/radioButton3"
+                    android:button="@null"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="95dp"
+                    android:layout_margin="40dp"
+                    android:text="New RadioButton"
+                    android:id="@+id/radioButton4"
+                    android:button="@null"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="95dp"
+                    android:layout_margin="40dp"
+
+                    android:text="New RadioButton"
+                    android:id="@+id/radioButton5"
+                    android:button="@null"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="95dp"
+                    android:layout_margin="40dp"
+                    android:text="New RadioButton"
+                    android:id="@+id/radioButton6"
+                    android:button="@null"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="95dp"
+                    android:layout_margin="40dp"
+
+                    android:text="New RadioButton"
+                    android:id="@+id/radioButton7"
+                    android:button="@null"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="95dp"
+                    android:layout_margin="40dp"
+                    android:text="New RadioButton"
+                    android:id="@+id/radioButton8"
+                    android:button="@null"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+
+
+        </RadioGroup>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
