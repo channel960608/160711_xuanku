@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/custom_item"
+    >
+
+    <LinearLayout
+        android:id="@+id/custom_back"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:weightSum="1"
+        android:tag="custom_back">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/mBackDaka"
+            android:layout_weight="0.5"
+            android:text="打卡"
+            android:textColor="#ffffff"
+            android:background="#00ffee"
+            android:textSize="15dp"
+            android:textAlignment="textStart"
+            android:paddingLeft="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="删除"
+            android:id="@+id/mBackDelete"
+            android:layout_weight="0.5"
+            android:background="#ff0000"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textAlignment="textEnd"
+            android:paddingRight="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/custom_front"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:weightSum="1"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_status"
+            android:layout_weight="0.2"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/custom_name"
+            android:layout_weight="0.5"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textIsSelectable="false"
+            android:textAlignment="textStart"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/custom_time"
+            android:layout_weight="0.3"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+</FrameLayout>

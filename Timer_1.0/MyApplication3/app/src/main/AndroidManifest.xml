@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shiguang.timefarmer.myapplication3">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--事件添加界面-->
+        <activity android:name=".AddEventActivity"></activity>
+        <!--事件更新界面-->
+        <activity android:name=".UpdateEventActivity"></activity>
+        <!--设置界面-->
+        <activity android:name=".SettingActivity"></activity>
+
+        <!--注册界面-->
+        <activity android:name=".RegistActivity"></activity>
+        <!--登录界面-->
+        <activity android:name=".LoginActivity"></activity>
+        <!--密码找回界面-->
+        <activity android:name=".MisspwdActivity"></activity>
+
+        <!--重置密码界面-->
+        <activity android:name=".ResetpwdActivity"></activity>
+        <!--习惯添加-->
+        <activity android:name=".AddCustomActivity"></activity>
+        <!--习惯修改-->
+        <activity android:name=".UpdateCustomActivity"></activity>
+        <!--关于我们-->
+        <activity android:name=".settingactivities.AboutUs"></activity>
+        <!--默认主页设置-->
+        <activity android:name=".settingactivities.DefaultFirstPage"></activity>
+        <!--回馈-->
+        <activity android:name=".settingactivities.FeedBack"></activity>
+        <!--帮助-->
+        <activity android:name=".settingactivities.Help"></activity>
+        <!--铃声设置-->
+        <activity android:name=".settingactivities.Ring"></activity>
+
+        <receiver android:name=".BootCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.cation.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.example.broadcasttest.MY_BROADCAST"/>
+                <action android:name="com.example.broadcasttest.TIMEUP"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

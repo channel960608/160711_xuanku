@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tomato_statistics"
+            android:icon="@mipmap/tomatoes"
+            android:title="番茄统计" />
+        <item
+            android:id="@+id/future_task"
+            android:icon="@mipmap/listtodo"
+            android:title="未来任务" />
+        <item
+            android:id="@+id/takeout_discount"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="外卖优惠" />
+        <item
+            android:id="@+id/system_setting"
+            android:icon="@mipmap/set"
+            android:title="系统设置" />
+    </group>
+
+</menu>

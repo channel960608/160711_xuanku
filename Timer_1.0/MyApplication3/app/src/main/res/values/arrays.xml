@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="remindtype">
+        <item>不提醒</item>
+        <item>准时提醒</item>
+        <item>5分钟前</item>
+        <item>10分钟前</item>
+        <item>15分钟前</item>
+        <item>30分钟前</item>
+        <item>1小时前</item>
+        <item>1天前</item>
+
+
+
+    </string-array>
+</resources>
